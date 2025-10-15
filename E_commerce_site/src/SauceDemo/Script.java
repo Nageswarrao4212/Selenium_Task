@@ -30,7 +30,7 @@ public class Script {
         options.addArguments("--incognito");
         options.addArguments("--start-maximized");
 
-        // Setup ChromeDriver automatically
+        // Setup ChromeDriver 
         WebDriver driver = new ChromeDriver(options);
 
         // Wait configuration
@@ -70,5 +70,6 @@ public class Script {
         //Close browser
         driver.quit();
         System.out.println("Browser closed.");
+ 
     }
 }
